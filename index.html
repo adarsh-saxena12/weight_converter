@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-5 text-center" id="top1">
+                     Weight Converter
+                </h1>
+                <form>
+                    <div class="form-group">
+                        <input
+                        id="lbsInput"
+                        type="number"
+                        class=" form-control form-control-lg" 
+                        placeholder="Enter Pounds..."
+                
+                        >
+                        <p id="nvAge">Age can not be negative...</p>
+                    </div>
+
+                </form>
+                <div id="output">
+
+
+                   <div class="card bg-primary">
+                    <div class="card-block">
+                        <h4 class="m-3">Grams : </h4>
+                        <div id="gramsOutput" class="ml-4 mt-0 mb-4"></div>
+                    </div>
+                   </div>
+
+
+                   <div class="card mt-2 bg-success">
+                    <div class="card-block">
+                        <h4 class="m-3">Kilograms : </h4>
+                        <div id="kgOutput" class="ml-4 mt-0 mb-4"></div>
+                    </div>
+                   </div>
+
+
+                   <div class="card mt-2 bg-danger">
+                    <div class="card-block">
+                        <h4 class="m-3">Ounces : </h4>
+                        <div id="ozOutput" class="ml-4 mt-0 mb-4"></div>
+                    </div>
+                   </div>
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
